@@ -8,4 +8,4 @@ This repository contains the starter code for many different projects. They are 
 * `prepare` - Starter projects for each of the preparation Learning Activities.
 * `prove` - Starter projects for each of the prove Developer projects.
 * `final` - Starter projects for final project.
-I want to make changes on this read me notes, to practice. 
+* `test` - I want to make changes on this read me notes, to practice. 
