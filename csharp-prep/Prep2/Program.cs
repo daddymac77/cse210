@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep2 World!");Console.Write("What is your grade? ");
+        Console.Write("What is your grade? ");
         string myGrade = Console.ReadLine();
         
         int finalGrade = int.Parse(myGrade);
