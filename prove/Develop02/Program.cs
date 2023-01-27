@@ -7,16 +7,15 @@ static void Main(string[] args)
     Diary diary = new Diary();
     char choice = '0';
     // main loop
-    while (choice != '5')
+    while (choice != '4')
     {
         diary.PrintHomeScreen();
         Console.WriteLine();
         Console.WriteLine("Choose an action:");
         Console.WriteLine("1 - Add a Journal entry");
         Console.WriteLine("2 - Search for Journal entries");
-        Console.WriteLine("3 - Delete Journal entries");
-        Console.WriteLine("4 - Ask for suggestions in diary entry");
-        Console.WriteLine("5 - End");
+        Console.WriteLine("3 - Ask for suggestions");
+        Console.WriteLine("4 - End");
         choice = Console.ReadKey().KeyChar;
         Console.WriteLine();
         // reaction to the choice
@@ -29,13 +28,10 @@ static void Main(string[] args)
                 diary.SearchEntries();
                 break;
             case '3':
-                diary.DeleteEntries();
-                break;
-            case '4':
                 var randomHelp = HelpDesk.GenerateSuggestion();
                 Console.WriteLine(randomHelp);
                 break;
-            case '5':
+            case '4':
                 Console.WriteLine("Press any key to quit the program...");
                 break;
             default:

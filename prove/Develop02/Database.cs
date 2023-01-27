@@ -19,11 +19,4 @@ public List<Entry> FindEntries(DateTime date, bool byTime)
     }
     return found;
 }
-public void DeleteEntries(DateTime date)
-{
-    List<Entry> found = FindEntries(date, true);
-    foreach (Entry entry in found)
-        entries.Remove(entry);
-}
-
 }

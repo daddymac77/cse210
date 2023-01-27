@@ -44,13 +44,7 @@ public void SearchEntries()
         // Nothing found
         Console.WriteLine("No entries were found.");
 }
-public void DeleteEntries()
-{
-    Console.WriteLine("Entries with the same exact date will be deleted");
-    DateTime dateTime = ReadDateTime();
-    
-    database.DeleteEntries(dateTime);
-}
+
 public void PrintHomeScreen()
 {
     Console.Clear();
