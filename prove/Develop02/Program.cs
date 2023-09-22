@@ -11,7 +11,7 @@ static void Main(string[] args)
     {
         diary.PrintHomeScreen();
         Console.WriteLine();
-        Console.WriteLine("Choose an action:");
+        Console.WriteLine("Choose your action carefully!!:");
         Console.WriteLine("1 - Add a Journal entry");
         Console.WriteLine("2 - Search for Journal entries");
         Console.WriteLine("3 - Ask for suggestions");
